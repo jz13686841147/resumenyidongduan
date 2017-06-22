@@ -40,7 +40,7 @@ function createSwiper(){ //创建两个swiper对象，并动态移动背景图�
 			move(swiper.activeIndex)
 		},
 		onSlideChangeEnd: function(swiper){ 
-			console.log(swiper.activeIndex);
+			// console.log(swiper.activeIndex);
 			swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
 		}
 	})
@@ -64,7 +64,7 @@ function createSwiper(){ //创建两个swiper对象，并动态移动背景图�
 		}
 	})
 	function move(index){//body背景图、H5图标移动
-		console.log(index + "aa")
+		// console.log(index + "aa")
 		switch (index){
 				case 0:
 					$(".container1").animate({"background-position-x":0},300);$(".h5").animate({"left":"0.2rem"},300);
