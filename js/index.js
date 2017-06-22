@@ -177,7 +177,7 @@ function overPage(){
 //		console.log(outTime);
 }
 function voiceClick(){
-	voc.src = "music/1.mp3";
+	voc.src = "music/停在你的时间.mp3";
 	musicPlay()
 //	voc.play();
 	$(".voice").on("click",function(){
